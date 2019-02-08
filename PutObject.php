@@ -1,4 +1,4 @@
-
+<?php
 $USAGE = "\n" .
     "To run this example, supply the name of an S3 bucket and a file to\n" .
     "upload to it.\n" .
@@ -30,5 +30,5 @@ try {
     echo $e->getMessage() . "\n";
 }
  
-
+?>
 
